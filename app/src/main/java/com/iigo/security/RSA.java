@@ -17,10 +17,12 @@ import javax.crypto.Cipher;
  * @Emial 729717222@qq.com
  * @date 2018/6/11 0011 12:08
  */
+
 public class RSA {
 
     public static final String RSA = "RSA";// 非对称加密密钥算法
     public static final String ECB_PADDING = "RSA/ECB/PKCS1Padding";//加密填充方式
+//    public static final String ECB_PADDING = "RSA/ECB/OAEPWithSHA256AndMGF1Padding";//加密填充方式
 
     /**
      * RSA算法规定：待加密的字节数不能超过密钥的长度值除以8再减去11。
